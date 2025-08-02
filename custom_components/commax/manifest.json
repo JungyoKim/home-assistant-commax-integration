@@ -2,6 +2,7 @@
   "domain": "commax",
   "name": "Commax",
   "documentation": "https://github.com/JungyoKim/home-assistant-commax-integration",
+  "issue_tracker": "https://github.com/JungyoKim/home-assistant-commax-integration/issues",
   "dependencies": ["serial"],
   "codeowners": ["@JungyoKim"],
   "requirements": ["pyserial>=3.5"],
