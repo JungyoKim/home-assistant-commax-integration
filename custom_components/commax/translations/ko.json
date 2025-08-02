@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Commax 설정",
+        "description": "Commax 시스템을 설정하세요. 사용 가능한 시리얼 포트: {ports}",
+        "data": {
+          "name": "통합구성요소 이름",
+          "port": "시리얼 포트",
+          "baud_rate": "통신 속도 (baud)",
+          "timeout": "타임아웃 (초)",
+          "scan_interval": "상태 조회 간격 (초)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "이미 설정되어 있습니다."
+    },
+    "error": {
+      "serial_connection_failed": "시리얼 포트 연결에 실패했습니다."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Commax 옵션",
+        "description": "Commax 통합구성요소 옵션을 설정하세요.",
+        "data": {
+          "baud_rate": "통신 속도 (baud)",
+          "timeout": "타임아웃 (초)",
+          "scan_interval": "상태 조회 간격 (초)"
+        }
+      }
+    }
+  }
+} 
